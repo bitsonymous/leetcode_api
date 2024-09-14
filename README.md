@@ -1,3 +1,4 @@
+
 # Documentation
 
 ## Overview
@@ -11,7 +12,6 @@ https://leetcodeapi-v1.vercel.app/
 ## Endpoints
 
 ### 1. Get User Stats
-
 **URL:** `/{username}`  
 **Method:** `GET`  
 **Description:** Retrieves detailed user statistics.  
@@ -20,9 +20,10 @@ https://leetcodeapi-v1.vercel.app/
 **Example Request:**
 
 ```bash
-curl -X GET "https://api.yourdomain.com/bitsonymous"
-
-
+curl -X GET "https://leetcodeapi-v1.vercel.app/bitsonymous"
+```
+**Example Response:**
+```json
 {
   "bitsonymous": {
     "submitStatsGlobal": {
@@ -34,41 +35,45 @@ curl -X GET "https://api.yourdomain.com/bitsonymous"
     }
   }
 }
-2. Get Solved Questions by Difficulty
-URL: /questions/{username}
-Method: GET
-Description: Retrieves the number of questions solved by difficulty.
-Path Parameter: username (LeetCode username)
+```
+#
+### 2. Solved Questions by Difficulty
+**URL:** `/questions/{username}`  
+**Method:** `GET`  
+**Description:** Retrieves the number of questions solved by difficulty.  
+**Path Parameter:** `username` (LeetCode username) 
 
-Example Request:
 
-bash
-Copy code
-curl -X GET "https://api.yourdomain.com/questions/bitsonymous"
-Example Response:
+**Example Request:**
 
-json
-Copy code
+```bash
+curl -X GET "https://leetcodeapi-v1.vercel.app/questions/bitsonymous"
+```
+**Example Response:**
+
+
+```json
 {
   "easy": 30,
   "medium": 50,
   "hard": 20
 }
-3. Get User Contest Data
-URL: /contest/{username}
-Method: GET
-Description: Retrieves user contest data.
-Path Parameter: username (LeetCode username)
+```
+#
+### 3.  Get User Contest Data
+**URL:** `/contest/{username}`  
+**Method:** `GET`  
+**Description:** Retrieves user contest data.
+**Path Parameter:** `username` (LeetCode username) 
 
-Example Request:
 
-bash
+**Example Request:**
+```bash
 Copy code
-curl -X GET "https://api.yourdomain.com/contest/bitsonymous"
-Example Response:
-
-json
-Copy code
+curl -X GET "https://leetcodeapi-v1.vercel.app/contest/bitsonymous"
+```
+**Example Response:**
+```json
 {
   "userContestDetails": {
     "attendedContestsCount": 10,
@@ -78,40 +83,28 @@ Copy code
     "topPercentage": 5.0
   }
 }
-4. Get User Rating
-URL: /rating/{username}
-Method: GET
-Description: Retrieves the user rating.
-Path Parameter: username (LeetCode username)
+```
+#
+### 4.  Get User Rating
+**URL:** `/rating/{username}`
+**Method:** GET
+**Description:** Retrieves the user rating.
+**Path Parameter:** `username` (LeetCode username)
 
-Example Request:
-
-bash
-Copy code
-curl -X GET "https://api.yourdomain.com/rating/bitsonymous"
-Example Response:
-
-json
-Copy code
+**Example Request:**
+```bash
+curl -X GET "https://leetcodeapi-v1.vercel.app/rating/bitsonymous"
+```
+**Example Response:**
+```json
 {
   "rating": 1800
 }
-Error Codes
-404 Not Found: User or data not found.
-500 Internal Server Error: Error processing the request.
-Contact
-For questions or issues, contact Himanshu Yadav at [your-email@example.com].
-
-arduino
-Copy code
-
-You can save this text to a file named `README.md`.
+```
+#
 
 
+### Error Codes
 
-
-
-
-
-
-
+**404 Not Found:** User or data not found.
+**500 Internal Server Error:** Error processing the request.
