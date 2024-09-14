@@ -1,9 +1,9 @@
 
 # Documentation
+<p align="left"> <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> </a> <a href="https://fastapi.tiangolo.com/"> <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"> </a> </p>
 
 ## Overview
 
-This API provides endpoints to retrieve various statistics and data related to LeetCode users. The API uses LeetCode's GraphQL endpoint to fetch data.
 
 ## Base URL
 https://leetcodeapi-v1.vercel.app/
