@@ -64,8 +64,8 @@ curl -X GET "https://leetcodeapi-v1.vercel.app/questions/bitsonymous"
 
  **URL:** `/contest/{username}`  
  **Method:** `GET`  
- **Description:** Retrieves user contest data.
-**Path Parameter:** `username` (LeetCode username)
+ **Description:** Retrieves user contest data. 
+**Path Parameter:** `username` (LeetCode username) 
 
 **Example Request:**
 ```bash
@@ -86,9 +86,9 @@ curl -X GET "https://leetcodeapi-v1.vercel.app/contest/bitsonymous"
 ```
 #
 ### 4.  Get User Rating
-**URL:** `/rating/{username}`
-**Method:** GET
-**Description:** Retrieves the user rating.
+**URL:** `/rating/{username}` 
+**Method:** GET 
+**Description:** Retrieves the user rating. 
 **Path Parameter:** `username` (LeetCode username) 
 
 **Example Request:**
