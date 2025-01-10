@@ -6,7 +6,7 @@
 
 
 ## Base URL
-https://leetcodeapi-v1.vercel.app/
+https://withered-frost-9321.ploomberapp.io/
 
 
 ## Endpoints
